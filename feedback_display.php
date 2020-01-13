@@ -1,12 +1,5 @@
 <?php
 
-$user = 'root';
-$password = ''; //To be completed if you have set a password to root
-$database = 'test'; //To be completed to connect to a database. The database must exist.
-$port = 3308;
-// Create connection
-
-$mysqli = new mysqli('127.0.0.1', $user, $password, $database, $port);
 // Check connection
 if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);

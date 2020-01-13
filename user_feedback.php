@@ -21,19 +21,10 @@ $Entered_value=$_POST['Entered_value'];
 $sql = "SELECT  `Purchase Requisition`,Material,`Short Text`,`User Remarks` FROM feedback WHERE `$Search_for`=$Entered_value";
 
 $result = mysqli_query($mysqli, $sql);
+
 if ($result->num_rows > 0) {
 // Fetch all
-while($row = $result->fetch_assoc())
-	{
 
-// Free result set
-mysqli_free_result($result);
-  $pr= $row['Purchase Requisition'];
-  $m= $row['Material'];
-  $st=$row['Short Text'];
-  $ur=$row['User Remarks'];
-  echo $pr;
-  echo $m;
   print "<table border=1><tr>\n"; 
   print "\t<td>Purchase Requisition"; 
   print "</td>";
@@ -41,12 +32,29 @@ mysqli_free_result($result);
   print "</td>";
   print "<td>Short Text</td>";
   print "<td>User Remarks</td>";
-  print "</tr>"; 
+  print "</tr>";
+
+while($row = $result->fetch_assoc())
+	{
+
+// Free result set
+//mysqli_free_result($result);
+  $pr= $row['Purchase Requisition'];
+  $m= $row['Material'];
+  $st=$row['Short Text'];
+  $ur=$row['User Remarks'];
+  //echo $pr;
+  //echo $m; 
  
 echo  "<tr><td>".$pr."</td><td>".$m."</td><td>".$st."</td><td>".$ur."</td></tr>"; 
- print "</table>";
+ 
 
 	}
+print "</table>";
+}
+else
+{
+
 }
 	$mysqli->close();
 
