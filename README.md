@@ -1,3 +1,9 @@
+https://codewithmark.com/easily-edit-html-table-rows-or-cells-with-jquery
+
+
+
+
+
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
      <script type="text/javascript">     
