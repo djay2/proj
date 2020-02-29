@@ -1,3 +1,6 @@
+https://phppot.com/php/php-mysql-inline-editing-using-jquery-ajax/
+
+
 https://codewithmark.com/easily-edit-html-table-rows-or-cells-with-jquery
 
 
