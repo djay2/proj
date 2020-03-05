@@ -1,3 +1,5 @@
+https://github.com/CodAffection/Pure-JavaScript-CRUD-Operations-with-Html
+
 https://phppot.com/php/php-mysql-inline-editing-using-jquery-ajax/
 
 
