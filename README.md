@@ -138,3 +138,6 @@ Dynamic JavaScript
         </div>
     </body>
 </html>
+
+
+https://www.webslesson.info/2016/10/php-ajax-update-mysql-data-through-bootstrap-modal.html?m=1
