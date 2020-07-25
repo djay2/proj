@@ -141,3 +141,5 @@ Dynamic JavaScript
 
 
 https://www.webslesson.info/2016/10/php-ajax-update-mysql-data-through-bootstrap-modal.html?m=1
+
+https://makitweb.com/edit-delete-datatables-record-with-ajax-and-php/
